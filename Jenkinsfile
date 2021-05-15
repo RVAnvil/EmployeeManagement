@@ -7,7 +7,7 @@ pipeline{
     stages{
         stage("Git Checkout"){
             steps{
-                 git 'https://github.com/RVAnvil/Employeemanagemet.git'
+                 git 'https://github.com/RVAnvil/EmployeeManagement.git'
             }
         }
      stage ('Build') {
