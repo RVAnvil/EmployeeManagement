@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.nagarro.empManagement.EmployeeManagementApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 10.722 s - in com.nagarro.empManagement.EmployeeManagementApplicationTests
