@@ -21,6 +21,7 @@ pipeline{
                    withSonarQubeEnv('sonar-8') { 
                    bat 'mvn sonar:sonar '
                 }
-          }   
+           }
+        }
     }
 }
