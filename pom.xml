@@ -41,7 +41,7 @@
 		</dependency>
 
 	</dependencies>
-
+<!-- Comment is add in pom.xml -->
 	<build>
 		<plugins>
 			<plugin>
