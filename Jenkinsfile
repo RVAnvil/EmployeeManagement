@@ -16,5 +16,11 @@ pipeline{
                 bat 'mvn clean install' 
             }
         }
+     stage('SonarQube analysis') {
+             steps{
+                   withSonarQubeEnv('sonar-8') { 
+                   bat 'mvn sonar:sonar '
+                }
+          }   
     }
 }
